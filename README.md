@@ -1,7 +1,7 @@
 # FLX_voice
 A simple and modern Voice Script 
 
-![Video](https://streamable.com/15jg7)
+https://streamable.com/15jg7
 
 <h1>INSTALLATION :</h1>
 
