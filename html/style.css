@@ -1,0 +1,61 @@
+html {
+	overflow: hidden;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+#boite {
+	position: absolute;
+	top: 94.91%;
+	bottom: -100%;
+	left: 97.3%;
+	width: 80px;
+	height: 80px;
+	display: none;
+	flex-direction: column;
+}
+
+header {
+	width: 80px;
+	height: 80px;
+	/*background-color: #a519ea;*/
+	opacity: 2.5;
+	border-top-left-radius: 40px;
+	border-top-right-radius: 40px;
+}
+
+header img {
+	width: 50px;
+	height: 50px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	-webkit-animation-name: spinner;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-duration: 2.33s;
+	-webkit-animation-play-state: running;
+	animation-name: spinner;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-duration: 2.33s;
+	animation-play-state: running;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+}
+
+  @keyframes spinner {
+	from {
+	  -moz-transform: rotateY(0deg);
+	  -ms-transform: rotateY(0deg);
+	  transform: rotateY(0deg);
+	}
+	to {
+	  -moz-transform: rotateY(0deg);
+	  -ms-transform: rotateY(0deg);
+	  transform: rotateY(360deg);
+	}
+  }
